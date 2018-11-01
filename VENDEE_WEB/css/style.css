@@ -54,7 +54,6 @@
     padding-left: 50px;
     flex-direction: column;
     flex: 1;
-    
 }
 .hero-content-image{
     display: flex;
@@ -73,7 +72,6 @@
 }
 .buttoncontainer button{
     display: flex;
-    align-content: center;
     justify-content: center;
     padding: 12px 0px 12px 0px;
     margin: 32px 32px 0px 0px;
@@ -82,7 +80,6 @@
     border-radius: 7px;
     background: rgb(207, 73, 87);
     background: linear-gradient(180deg, rgba(207, 73, 87, 1) 14.000000000000002%, rgba(131, 69, 99, 1) 91%);
-    
 }
 .buttoncontainer img{
     display: flex;
@@ -133,34 +130,33 @@ footer{
     .nav-icon img {
         display: flex;
         justify-content: center;
-        margin: 5px 0px 5px 0px;
+        margin: 0px;
+        padding: 50px;
     }
     .hero-content {
-        display: flex;
-        flex-wrap: wrap;
         width: 100%;
         
     }
     .hero-content h1 {
-        margin: 40px 0px 40px 25px;
-        font-size: 46px;
+        margin: 30px 15px 30px 15px;
+        font-size: 45px;
     }
     .hero-content-text {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0px 0px 0px 0px;
-        width: 100%;
+        padding: 0px;
     }
     .buttoncontainer{
-        justify-content: center;
-        padding: 10px 0px 10px 0px;
-        width:100%;
+        display: flex;
+        flex: nowrap;
+        justify-content: space-evenly;
+        padding: 0px 0px 0px 5px;
     }
     .buttoncontainer button{
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-        padding: 8px;
+        margin: 0px 10px 10px 0px;
+        padding: 16px;
+        font-size: 16px;
+    }
+    .hero-content-image{
+        display: none;
     }
     footer {
         width: 100%;
