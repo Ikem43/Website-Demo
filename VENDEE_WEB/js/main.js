@@ -7,4 +7,6 @@ var typed = new Typed(".type-it", {
     smartBackspace: true,
     fadeOut: false,
     loop: true
+    
 });
+
