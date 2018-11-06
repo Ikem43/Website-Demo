@@ -82,7 +82,7 @@ text-align: -webkit-center;
 .hero-content-image img {
 display: flex;
 flex-wrap: nowrap;
-width: 50%;
+width: 80%;
 margin: 80px 0px 0px 0px;
 }
 
@@ -324,7 +324,6 @@ html,body{
 }
 .hero-content h1 {
     justify-content: center;
-    text-align: center;
     padding-left: 0px;
     margin: 80px 0px 30px 30px;
     font-size: 60px;
@@ -334,8 +333,6 @@ html,body{
     padding: 0px;
 }
 .buttoncontainer {
-    justify-content: center;
-    text-align: center;
     display: flex;
     flex-wrap: nowrap;
     padding: 30px 0px 30px 30px;
@@ -390,7 +387,6 @@ footer {
 
     .hero-content h1 {
         justify-content: center;
-        align-items: center;
         padding: 100px 10px 60px 15px;
         margin: 0px;
         font-size: 40px;
@@ -458,7 +454,6 @@ footer {
 
     .hero-content h1 {
         justify-content: center;
-        align-items: center;
         padding: 100px 10px 60px 15px;
         margin: 0px;
         font-size: 40px;
@@ -527,7 +522,6 @@ footer {
 
     .hero-content h1 {
         justify-content: center;
-        align-items: center;
         padding: 100px 10px 60px 15px;
         margin: 0px;
         font-size: 40px;
