@@ -10,22 +10,22 @@ html,body{
 
 @font-face {
 font-family: mplusRegular;
-src: url(\font\MPLUSRounded1c-Regular.ttf);
+src: url(../font/MPLUSRounded1c-Regular.ttf);
 }
 
 @font-face {
 font-family: mplusthin;
-src: url(\font\MPLUSRounded1c-Thin.ttf);
+src: url(../font/MPLUSRounded1c-Thin.ttf);
 }
 
 @font-face {
 font-family: mplusBold;
-src: url(/font/MPLUSRounded1c-Bold.ttf);
+src: url(../font/MPLUSRounded1c-Bold.ttf);
 }
 
 @font-face {
 font-family: mplusXbold;
-src: url(/font/MPLUSRounded1c-ExtraBold.ttf);
+src: url(../font/MPLUSRounded1c-ExtraBold.ttf);
 }
 /* #wrapper.container{
 } */
@@ -40,6 +40,17 @@ src: url(/font/MPLUSRounded1c-ExtraBold.ttf);
     justify-content: center;
     padding: 20px;
 }
+
+
+.email{
+    font-family:  mplusXbold;
+ }
+ 
+ .phone{
+ 
+     font-family:  mplusXbold; 
+ }
+
 
 .nav-icon img {
 height: 25px;
@@ -232,7 +243,7 @@ html,body{
 @media only screen and (max-width: 767px) {
 }
 
-/* pixel2 XL */
+/* * pixel2 XL */ 
 @media only screen and (min-device-width: 411px) and (max-device-height: 823px) and (-webkit-device-pixel-ratio: 2) {
      .container {
         display: flex;
@@ -359,6 +370,10 @@ html,body{
 footer {
     width: 100%;
 }
+
+
+
+
 .contactDetails {
     display: flex;
     justify-content: center;
